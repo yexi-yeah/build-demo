@@ -17,7 +17,7 @@
 export const runOnce = (cb: () => void) => {
   let called = false;
             console.log('xxx', 's');
-  let called2 = false;
+    let called2 = false;
   return () => {
     if (!called && !called2) {
       cb();
